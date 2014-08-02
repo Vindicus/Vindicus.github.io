@@ -122,21 +122,14 @@
        										 <h4 class="modal-title" id="myModalLabel">Google Clone</h4>
      									 </div>
      								 <div class="modal-body">
-        								<p>This project is just a pretty simple Google clone that I have done utilizing HTML and CSS. As of right now, I can see that
+        								<p><strong>Introduction:</strong>This project is just a pretty simple Google clone that I have done utilizing HTML and CSS. As of right now, I can see that
         									the Google's logo and the search box is smaller than the original Google site including the font size of each text. </p>
-        								<p>The hardest part about this project was trying to mimic the original Google site as perfect as possible:</p>
-        								<ul>
-							        		<li>Simply trying to identify the width and height for each element</li>
-							        		<li>Identifying the positioning of each element on the page</li>
-        								</ul>
-        								<p>The most interesting part was using the web inspector tool to inspect and dissect the Google site:</p>
-							        	<ul>
-							        		<li>Remove some elements allows me to better understand where and what each element are.</li>
-							        		<li>Playing around with the height, width, margins, and padding by modifying them.</li>
-							        	</ul>
+        								<p><strong>Difficulties:</strong>The hardest part about this project was trying to mimic the original Google site as perfect as possible</p>
+        								<p><strong>The fun part:</strong>The most interesting part was using the web inspector tool to inspect and dissect the Google site such as
+							        	    removing some elements that allowed me to better understand where and what each element are.</p>
     								  </div>
-									</div>
-								</div>
+							       </div>
+							   </div>
 							</div>
 						</section>
 						<!--SHOPPING CHECK -->
@@ -155,18 +148,15 @@
         									<h4 class="modal-title" id="myModalLabel">Shopping Check</h4>
      					 				</div>
       									<div class="modal-body">
-        									<p>This project is a shopping list app that I created using HTML, CSS, and jQuery. This app allows users to add items to the 
-        									   shopping list under pre-defined categories. Users can also add their own category names.</p>
-        									<p>The hardest part about this project was trying to figure out how user's items are appended to the category they selected:</p>
-								        	<ul>
-								        		<li>I decided to create a switch statement for the selected category and append the list item</li>
-								        		<li>The other difficulty was trying to allow users to type their own category name and append that to the select list</li>
-								        	</ul>
-        									<p>The most interesting part was using the form elements such as the select list and the text box:</p>
-        									<ul>
-								        		<li>The form elements allows me to manipulate user data using jQuery event listeners and append them to the right category using switch statements</li>
-								        		<li>The other interesting part was allowing users to remove and highlight items that are completed using the click event listener, toggleClass, and the remove DOM element functions </li>
-        									</ul>
+        									<p><strong>Introduction:</strong> This project is a shopping list app that allow users to add items to the list under pre-defined categories.
+        									   Users can also add their own categories to the list. Users can highlight a completed item or remove an item or the category altogether. 
+        									   Users can clear the entire list while retaining users’ defined categories.</p>
+        									<p><strong>Difficulties:</strong> The problem was trying to figure out how to get a user’s items and append it to the selected category that he or she selected. 
+        									   In this case, I decided to create a switch statement for the category list. The other problem was allowing users to type their own category name and append that to the select list.</p>
+        									<p><strong>The fun part:</strong> The most interesting part was manipulating the form elements like the select list and the text box. 
+        									   The form elements allows me to manipulate user data via jQuery event listeners and append them to the right category using switch statements. 
+        									   The other part was allow users to remove and highlight items that are completed or unwanted via click listeners, toggleClass, and remove DOM element functions.</p>
+        								
         									<a href="https://github.com/Vindicus/ShoppingCheck" title="Github: ShoppingCheck">Github</a>
       									</div>
 									</div>
@@ -192,20 +182,17 @@
         									<h4 class="modal-title" id="myModalLabel">Hot or Cold</h4>
       									</div>
       									<div class="modal-body">
-			        						<p>This project is a simple guessing game base on a guess range of 1-100. The game will generate a random number and the user
-			        						   will have to guess the correct number. If the user's guess is 50 numbers greater than the actual number, it will display a "ice cold" css animation.</p>
-			        						<p>The hardest part about this project was trying to identity the checkpoint for each range of numbers under the categories for ice cold, cold, warm, hot, very hot</p>
-			        						<ul>
-								        		<li>I took the absolute value of user input subtracted by the actual random number</li>
-								        		<li>For every range of 10 numbers, it will display the proper cold or hot css animation</li>
-								        		<li>Example: if the absolute value of user input subtracted by the actual random number is greater than 10 but
-								        			less than 20 will display the "ice Cold" css animation</li>
-			        						</ul>
-			        						<p>The most interesting part was creating the CSS animations for the cold or hot:</p>
-			        						<ul>
-			        							<li>I created a pulse key frame and have it animate infinitely</li>
-			        							<li>The proper css animation will display while the other animations will have a opacity of 0.2 base on the user input </li>
-			        						</ul>
+			        						<p><strong>Introduction:</strong> This project is a guessing game based on a guess range of 1-100.
+			        						   The game will generate a random number and the user will have to guess the correct number. 
+			        						   For example, if the user’s guess is 50 greater or lower than the correct answer, it will display only the ‘ice cold’ css animation.</p>
+			        						<p><strong>Difficulties:</strong> The hard part was trying to identify the ‘checkpoint’ for each range of numbers in which to display the correct category for either ice cold, cold, warm, hot, or very hot. 
+			        						   For example, Taking the absolute value of user input subtracted by the correct answer will yield the difference between the two numbers. 
+			        						   If the yielded difference is greater than 10 or less than 20, the ‘ice cold’ css animation will be shown.</p>
+			        						
+			        						<p><strong>The fun part:</strong> The most interesting part was creating key frame animations for ice cold, cold, warm, hot, and very hot.
+			        						   I created a key frame named pulse and had it animate infinitely. 
+			        						   The proper css animation will display while the other animations will have their opacity set to 0.2 based on the yielded difference from user input.</p>
+			        						
 			        						<a href="https://github.com/Vindicus/HotCold" title="Github: Hot or Cold">Github</a>
       									</div>
     								</div>
@@ -228,14 +215,13 @@
 											<h4 class="modal-title" id="myModalLabel">WoW Quiz</h4>
 										</div>
 										<div class="modal-body">
-        									<p>This project is a simple World of Warcraft quiz for World of Warcraft fans. This is a simple 5 question quiz where users select the appropriate answer.</p>
-        									<p>There were no hard parts for this project other than fun because it was very exciting to make.</p>
-        									<p>The most interesting parts were creating the questions and the answers using gif images:</p>
-								        	<ul>
-								        		<li>Firstly, I created an array of questions using javascript objects with some questions, descriptions, and option choices for answers</li>
-								        		<li>Then, I used the data attribute to label the correct answer choice and add that correct score to the overall score</li>
-								        		<li>I used jQuery ".data" function to grab the correct answer</li>
-								        	</ul>
+        									<p><strong>Introduction:</strong> This project is a simple quiz from the popular MMORPG World of Warcraft. 
+        									   This is a simple five question quiz where users selects the appropriate answer.
+        									   To make it interesting, I used .gif images as options. Each correct answer is 1 point.</p>
+        									<p><strong>Difficulties:</strong> I don’t see any difficulties with this project.</p>
+        									<p><strong>The fun part:</strong> The most interesting were creating the questions and answers using arrays and javascript objects and had them appended to the DOM. 
+        									   I used the data attribute to label the correct answer and add that correct score to the overall score.
+        									   I used jQuery “.data” function to grab the correct answer.</p>
         									<a href="https://github.com/Vindicus/WoWQuiz" title="Github: WoW Quiz">Github</a>
       									</div>
    									 </div>
@@ -260,18 +246,16 @@
 	        								<h4 class="modal-title" id="myModalLabel">Youtube API</h4>
 	      								</div>
 	      								<div class="modal-body">
-	      									<p>This project is a simple Youtube search app using jQuery AJAX. This allow users to type in a search query and it will fetch 20 videos per page.</p>
-	        								<p>The hardest part was that I never used the Youtube API before:</p>
-								        	<ul>
-								        		<li>Even though I never used the Youtube API, I spent some time reading the API and establishing the API key</li>
-								        		<li>I also read through the required parameters and optional parameters to add to the data parameter for AJAX</li>
-								        		<li>The hard part was fetching the next 20 results using pageToken</li>
-								        	</ul>
-								        	<p>The most interesting part was creating the AJAX for retrieving the Youtube results:</p>
-								        	<ul>
-								        		<li>It was exciting adding parameters with javascript objects into the data parameters using $.ajax</li>
-								        		<li>The other part was using the results to display to the user by displaying the titles, description, thumbnails, url,publishedAt, channelTitle, and its Ids</li>
-								        	</ul>
+	      									<p><strong>Introduction:</strong> This project is a simple Youtube search app utilizing jQuery’s AJAX function. 
+	      									   This app allows users to search any videos and the AJAX will fetch user input and retrieve a set of 20 videos per page. 
+	      									   By clicking the ‘next’ button, the app will fetch the next 20 videos.</p>
+	        								<p><strong>Difficulties:</strong> I have never used the Youtube API before in my life until now. Before I started creating this app, I had to read through Youtube’s API documentation and establish an API key.
+	        								   Although, it took some time but I finally understood what parameters are required to pass through AJAX and what parameters are optional. 
+	        								   The other difficult part was figuring out how to fetch the next set of videos when a user clicks the ‘next’ button on the page. Fortunately, I came across a parameter called pageToken for next results and previous results. 
+	        								   Every time the ‘next’ or ‘previous’ button is clicked, a new pageToken for the next or previous page is passed through my variable called nextToken or prevToken and will pass it to the AJAX function again to retrieve the next 20 videos.</p>
+								        	<p><strong>The fun part:</strong> The most interesting part was actually creating the AJAX function and passing in the parameters I needed to create this app such as the video’s title, description, thumbnails, channelTitle, and more. 
+								        	   It allowed me to manipulate these data.</p>
+								        	
 	        								<a href="https://github.com/Vindicus/YoutubeAPI" title="Github: Youtube API">Github</a>
 	      								</div>
 	    							</div>
@@ -294,24 +278,19 @@
         									<h4 class="modal-title" id="myModalLabel">CheckMark</h4>
       									</div>
       									<div class="modal-body">
-        									<p>This project is a simple appointment reminder app. This allows users to create their own appointments and be reminded via phone calls, text messages, or emails. 
-        									   Users can also invite friends that have a CheckMark account to the appointment. They can be reminded of the invitation via email.</p>
-        									<p>The hardest parts were the modeling relationship and the Twilio API:</p>
-								        	<ul>
-								        		<li>Before the beginning of the project, I had to create a modeling relationship like users, appointments, invitations, and reminders</li>
-								        		<li>I would create one to many relationships amongst them and fill in the appropriate fields </li>
-								        		<li>The other hard part was using the Twilio API, I had to read through the documentation to understand how to use it</li>
-								        		<li>I also had to use a background process to send out reminders via a gem called Sidekiq and Sendgrid</li>
-								        		<li>The last hardest part was creating rspec tests. Testing was very difficult for me, I know "what" to test but it is hard to know "how" to test</li>
-								        		<li>Although testing is something I lack but I am currently developing a way to overcome this obstacle</li>
-								        	</ul>
-        									<p>The most interesting parts were setting up actionmailer with Sendgrid, Devise and creating form fields to work with the database</p>
-								        	<ul>
-								        		<li>I added an addon called Sendgrid so it will allow the app to send email reminders</li>
-								        		<li>I also added an authentication gem called Devise which was easy and fun to work with by simply customizing flash messages, fields, and validations</li>
-								        		<li>The next fun part was creating forms to add params to the designated models </li>
-								        		<li>The next part was adding nested associated forms where one form works with two or more models amongst appointments, invitations, and reminders</li>
-								        	</ul>
+        									<p><strong>Introduction:</strong> This project is a simple appointment reminder app. This allows users to create their own appointments and be reminded via phone calls, text messages, or emails. 
+        									   Users can also invite their friends who has a CheckMark account to their appointment. They can also be reminded of the invited invitation via email.</p>
+        									<p><strong>Difficulties:</strong> Since I wanted to allow users to receive text messages and phone calls, I decided to try out a free version of the Twilio API. 
+        									   I never used Twilio before so I had to read through documentation and try to render a TWiML for the phone response. 
+        									   In addition, I needed a background process to generate these reminders at specific times so I had to read through the documentation for the gem called Sidekiq. 
+        									   The hardest part of all was trying to create tests. 
+        									   Testing was very difficult for me, I knew ‘what’ to test but it was hard for me to know ‘how’ to test. 
+        									   Although testing is something I lack, I am currently learning to overcome this obstacle.</p>
+								        	
+        									<p><strong>The fun part:</strong> The most interesting part was using the Sendgrid and adding it to the actionmailer to send email reminders. 
+        									   I also used a authentication gem called Devise which was actually very easy to use. 
+        								           I could simply customize messages, fields, and validations.</p>
+								        	
         									<a href="https://github.com/Vindicus/CheckMarkApp" title="Github: CheckMark app">Github</a>
       									</div>
    			 						</div>
