@@ -121,14 +121,14 @@ div.about,div.resume,div.social{
 }
 .resume-title{
   font-size:50px;
-  color:#38B5F0;
+  color:black;
   padding-bottom:7px;
-  border-bottom:3px solid #38B5F0;
+  border-bottom:3px solid black;
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 .resume-heading,.resume-list{
   margin-top:40px;
-  color:#38B5F0;
+  color:black;
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 .resume-list{
@@ -137,10 +137,10 @@ div.about,div.resume,div.social{
   color:rgb(78, 70, 70);
 }
 .resume-heading-sub{
-  font-weight:bold;
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   color:rgb(78, 70, 70);
   text-transform:uppercase;
+  text-decoration:underline;
 }
 section.intro-paragraph{
   text-align:center;
